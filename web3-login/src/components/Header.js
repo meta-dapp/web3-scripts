@@ -14,18 +14,14 @@ class Header extends Component {
         super(props)
         this.state = {
             account: undefined,
-            bnb_balance: undefined,
-            message: undefined,
-            message_type: 'danger',
-            logged: false
+            bnb_balance: undefined
         }
     }
 
     resetState() {
         this.setState({
             account: undefined,
-            bnb_balance: undefined,
-            logged: false
+            bnb_balance: undefined
         })
     }
 
