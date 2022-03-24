@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.theme-font {
+  font-size: 1.8rem;
+}
+
+.nav-font {
+  font-size: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* SOACIAL BG */
+.bg-user-facebook {
+  background-color: #3b5998;
+}
+
+.bg-user-twitter {
+  background-color: #00acee;
+}
+
+.bg-user-reddit {
+  background-color: #ff5700;
+}
+
+.bg-user-youtube {
+  background-color: #c4302b;
+}
+
+.bg-user-telegram {
+  background-color: #0088cc;
+}
+
+.bg-user-instagram {
+  background-color: #c13584;
+}
+
+.bg-user-twitch {
+  background-color: #6441a5;
+}
+
+/* SOACIAL BG IMPORTANT*/
+.bg-iuser-facebook {
+  background-color: #3b5998 !important;
+}
+
+.bg-iuser-twitter {
+  background-color: #00acee !important;
+}
+
+.bg-iuser-reddit {
+  background-color: #ff5700 !important;
+}
+
+.bg-iuser-youtube {
+  background-color: #c4302b !important;
+}
+
+.bg-iuser-telegram {
+  background-color: #0088cc !important;
+}
+
+.bg-iuser-instagram {
+  background-color: #c13584 !important;
+}
+
+.bg-iuser-twitch {
+  background-color: #6441a5 !important;
+}
+
+/* SOACIAL BG LIGHT IMPORTANT*/
+.bg-light-stats-facebook {
+  background-color: rgb(59 89 152 / 18%) !important;
+}
+.bg-light-stats-twitter {
+  background-color: rgb(0 172 238 / 18%) !important;
+}
+.bg-light-stats-success {
+  background-color: rgb(40 167 69 / 18%) !important;
+}
+.bg-light-stats-warning {
+  background-color: rgb(255 193 7 / 18%) !important;
+}
+.bg-light-stats-reddit {
+  background-color: rgb(255 87 0 / 18%) !important;
+}
+.bg-light-stats-youtube {
+  background-color: rgb(196 48 43 / 18%) !important;
+}
+.bg-light-stats-telegram {
+  background-color: rgb(0 136 204 / 18%) !important;
+}
+.bg-light-stats-instagram {
+  background-color: rgb(193 53 132 / 18%) !important;
+}
+.bg-light-stats-twitch {
+  background-color: rgb(100 65 165 / 18%) !important;
+}
+
+/* SOACIAL TEXT IMPORTANT*/
+.text-stats-facebook {
+  color: #3b5998 !important;
+}
+.text-stats-twitter {
+  color: #00acee !important;
+}
+.text-stats-reddit {
+  color: #ff5700 !important;
+}
+.text-stats-youtube {
+  color: #c4302b !important;
+}
+.text-stats-telegram {
+  color: #0088cc !important;
+}
+.text-stats-instagram {
+  color: #c13584 !important;
+}
+.text-stats-influencers {
+  color: #f79400 !important;
+}
+.text-stats-jobs {
+  color: black !important;
+}
+
+.text-stats-white {
+  color: white !important;
+}
+
+.text-stats-cmc {
+  color: rgb(56, 97, 251) !important;
+}
+.text-stats-bscscan {
+  color: black !important;
+}
+
+.text-stats-poocoin {
+  color: #825d3c !important;
+}
+
+.text-stats-home {
+  color: green !important;
+}
+.text-stats-twitch {
+  color: #6441a5 !important;
+}
+
+.social-big {
+  font-size: 2.5rem !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.margin-social {
+  margin-top: 7px;
+}
+
+.small-rating {
+  font-size: smaller;
+}
+
+.super-small-rating {
+  font-size: x-small;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.user-box {
+  border: none !important;
+}
+
+.logo-text {
+  font-size: 16px !important;
+  margin-left: 2px !important;
+  margin-bottom: 0;
+  letter-spacing: 0px !important;
+  color: #4c5258 !important ;
+}
+
+.invoice {
+  min-height: 5px !important;
+}
+
+.user-img-request {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0 solid #e5e5e5;
+  padding: 0;
+}
+
+/* BG & TXT STATUS JOB */
+.text-working {
+  color: rgb(255 193 7) !important;
+  font-weight: bold;
+}
+.text-completed {
+  color: rgb(23 160 14) !important;
+  font-weight: bold;
+}
+.text-created {
+  color: rgb(13 202 240) !important;
+  font-weight: bold;
+}
+
+.text-accepted {
+  color: rgb(13 202 240) !important;
+  font-weight: bold;
+}
+
+.text-delayed {
+  color: rgb(244 17 39) !important;
+  font-weight: bold;
+}
+
+.text-declined {
+  color: rgb(244 17 39) !important;
+  font-weight: bold;
+}
+
+.bg-working {
+  background-color: rgb(255 193 7 / 0.11) !important;
+}
+.bg-completed {
+  background-color: rgb(23 160 14 / 0.11) !important;
+}
+.bg-created {
+  background-color: rgb(13 202 240 / 18%) !important;
+}
+
+.bg-accepted {
+  background-color: rgb(13 202 240 / 18%) !important;
+}
+
+.bg-delayed {
+  background-color: rgb(244 17 39 / 0.11) !important;
+}
+.bg-declined {
+  background-color: rgb(244 17 39 / 0.11) !important;
+}
+.nothing-to-show {
+  height: 80vh;
+  padding: 0 1rem;
+}
+
+.menu-item {
+  color: orange;
+}
+
+.color-black {
+  color: black;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.input-beauty {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  background-color: transparent;
+  color: transparent;
+}
+
+.health-baged {
+  font-size: x-small;
+  margin-left: 10px;
+}
+.social-small {
+  font-size: large !important;
+}
+
+.no-link {
+  color: inherit;
+  text-decoration: none;
+}
+.no-link:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.crop-image {
+  object-fit: cover;
+  object-position: center;
+  height: 100px;
+  width: 100px;
+}
+
+.rounded-circle {
+  object-fit: cover;
+  object-position: center;
+}
